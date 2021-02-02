@@ -16,7 +16,8 @@
     "semantic-release": "npx semantic-release",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "start": "webpack-dev-server --open --config webpack.dev.js",
-    "report-coverage": "cat ./coverage/lcov.info | codecov"
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "prepare": "npm run build"
   },
   "keywords": [
     "react",
